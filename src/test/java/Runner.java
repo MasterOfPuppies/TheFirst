@@ -8,7 +8,7 @@ import org.junit.runners.Suite;
  * Created by EgorZhuravlev on 7/6/2016.
  */
 
-
+ 
 @RunWith(Categories.class)
 @Categories.IncludeCategory({SlowTests.class,FastTests.class})
 @Categories.ExcludeCategory(FastTests.class)
